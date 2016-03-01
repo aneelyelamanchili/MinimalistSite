@@ -1,0 +1,39 @@
+@import url(https://fonts.googleapis.com/css?family=Cousine:400,700);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,100);
+
+body {
+    /*background: #F5F5F5;*/
+    background-color: #222;
+    font-family: 'Cousine', 'Raleway';
+    font-size: 10px;
+    color: #F5F5F5;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #DEE34B;
+}
+
+p {
+    font-family: 'Cousine', 'Raleway';
+    font-size: 10px;
+    padding-left:1.5em;
+}
+p.small{
+    font-family: 'Cousine', 'Raleway';
+    font-size: 9px;
+    padding-left:1.5em; 
+    color: #EDEDED;
+}
+p.raleway {
+    font-family: 'Raleway';
+    font-size: 10px;
+}
+
+p.cousinebold {
+    font-family: 'Cousine';
+    font-weight: 700;
+    font-size: 11px;
+    padding-left:0em;
+}
