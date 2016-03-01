@@ -62,7 +62,7 @@
   var pool = [];
 
   var demo = Sketch.create({
-    container: document.getElementById( 'container' )
+    container: document.getElementById('drawing-container')
   });
 
   demo.setup = function() {
@@ -121,15 +121,11 @@
   };
 
   demo.mousemove = function() {
-
     var particle, theta, force, touch, max, i, j, n;
-
     for ( i = 0, n = demo.touches.length; i < n; i++ ) {
-
       touch = demo.touches[i], max = random( 1, 4 );
       for ( j = 0; j < max; j++ ) {
         demo.spawn( touch.x, touch.y );
       }
-
     }
   };

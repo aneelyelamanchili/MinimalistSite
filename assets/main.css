@@ -7,7 +7,7 @@ body {
     font-family: 'Cousine', 'Raleway';
     font-size: 10px;
     color: #F5F5F5;
-    
+
 }
 
 a {
@@ -23,7 +23,7 @@ p {
 p.small{
     font-family: 'Cousine', 'Raleway';
     font-size: 9px;
-    padding-left:1.5em; 
+    padding-left:1.5em;
     color: #EDEDED;
 }
 p.raleway {
@@ -36,4 +36,8 @@ p.cousinebold {
     font-weight: 700;
     font-size: 11px;
     padding-left:0em;
+}
+
+.content {
+  position: absolute;
 }
