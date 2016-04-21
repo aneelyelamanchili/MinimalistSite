@@ -2,42 +2,101 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,100);
 
 body {
-    /*background: #F5F5F5;*/
-    background-color: #222;
+    background: #F5F5F5;
     font-family: 'Cousine', 'Raleway';
-    font-size: 10px;
-    color: #F5F5F5;
+    font-size: 15px;
+    font-color: #424242;
 
 }
 
 a {
     text-decoration: none;
-    color: #DEE34B;
+    color: #6CA7BA;
 }
-
+a.header {
+    text-decoration: none;
+    color: black;
+}
 p {
     font-family: 'Cousine', 'Raleway';
-    font-size: 10px;
+    font-size: 15px;
     padding-left:1.5em;
 }
 p.small{
     font-family: 'Cousine', 'Raleway';
-    font-size: 9px;
+    font-size: 14px;
     padding-left:1.5em;
-    color: #EDEDED;
+    color: #3D3D3D;
 }
 p.raleway {
     font-family: 'Raleway';
-    font-size: 10px;
+    font-size: 15px;
 }
 
 p.cousinebold {
     font-family: 'Cousine';
     font-weight: 700;
-    font-size: 11px;
-    padding-left:0em;
+    font-size: 16px;
+    padding-left: 0em;
 }
 
 .content {
   position: absolute;
+}
+
+.blinking-cursor {
+  font-family: 'Cousine';
+  font-weight: 700;
+  font-size: 17px;
+  color: #90C3D4;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #90C3D4;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #90C3D4;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #90C3D4;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #90C3D4;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #90C3D4;
+  }
 }
